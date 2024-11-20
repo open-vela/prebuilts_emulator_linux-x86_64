@@ -1,0 +1,9 @@
+prefix=/__w/qemu-riscv-xpack/qemu-riscv-xpack/build/linux-x64/application
+includedir=${prefix}/include
+libdir=${prefix}/lib/x86_64-linux-gnu
+
+Name: libfdt
+Description: Flat Device Tree manipulation
+Version: 1.6.0
+Libs: -L${libdir} -lfdt
+Cflags: -I${includedir}
